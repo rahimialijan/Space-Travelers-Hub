@@ -30,7 +30,16 @@ const initialState = {
 const rocketSlice = createSlice({
   name: 'rockets',
   initialState,
-  reducers: {},
+  reducers: {
+    reserveRocket: (state, action) => {
+      state.rocketData = state.rocketData.map((rocket) => (rocket.id === action.payload
+        ? {
+          ...rocket,
+          reserved: true,
+        }
+        : { ...rocket }));
+    },
+  },
   extraReducers(builder) {
     builder
       .addCase(getRocketsData.pending, (state) => {
@@ -47,5 +56,5 @@ const rocketSlice = createSlice({
       });
   },
 });
-
+export const { reserveRocket } = rocketSlice.actions;
 export default rocketSlice.reducer;
