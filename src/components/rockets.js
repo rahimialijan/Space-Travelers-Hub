@@ -2,7 +2,7 @@
 
 import './rockets.css';
 import { useDispatch } from 'react-redux';
-import { reserveRocket } from '../Redux/rockets/rocketSlice';
+import { reserveRocket, cancelationRocket } from '../Redux/rockets/rocketSlice';
 
 const RocketItem = ({ data }) => {
   const {
@@ -10,7 +10,9 @@ const RocketItem = ({ data }) => {
   } = data;
   const dispatch = useDispatch();
   const handleClick = () => {
-    dispatch(reserveRocket(id));
+    if (reserved) {
+      dispatch(cancelationRocket(id));
+    } else dispatch(reserveRocket(id));
   };
 
   return (
