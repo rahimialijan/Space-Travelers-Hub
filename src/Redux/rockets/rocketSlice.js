@@ -9,13 +9,14 @@ export const getRocketsData = createAsyncThunk(
     try {
       const response = await axios.get(ROCKET_URL);
       return response.data.map((item) => ({
-        id: item.id,
-        name: item.name,
-        type: item.type,
+        id: item.rocket_id,
+        name: item.rocket_name,
+        type: item.rocket_type,
+        description: item.description,
         flickr_images: item.flickr_images,
       }));
     } catch (error) {
-      return rejectWithValue(error);
+      return rejectWithValue('something went wrong');
     }
   },
 );
