@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import './missions.css';
 
 const MissionsView = ({
-  missions, isLoading, error,
+  missions, isLoading, error, handleJoinMission,
 }) => {
   if (isLoading) {
     return <div>Loading...</div>;
@@ -54,7 +54,7 @@ const MissionsView = ({
                   <button
                     type="button"
                     className="join-mission action-btn"
-
+                    onClick={() => handleJoinMission(mission.mission_id)}
                   >
                     Join Mission
                   </button>
@@ -79,7 +79,7 @@ MissionsView.propTypes = {
   ).isRequired,
   isLoading: PropTypes.bool.isRequired,
   error: PropTypes.string,
-  // handleJoinMission: PropTypes.func.isRequired,
+  handleJoinMission: PropTypes.func.isRequired,
   // handleLeaveMission: PropTypes.func.isRequired,
 };
 
