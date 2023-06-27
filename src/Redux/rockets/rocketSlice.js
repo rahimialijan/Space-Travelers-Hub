@@ -1,10 +1,10 @@
-import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-import axios from "axios";
+import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
+import axios from 'axios';
 
-const ROCKET_URL = "https://api.spacexdata.com/v3/rockets";
+const ROCKET_URL = 'https://api.spacexdata.com/v3/rockets';
 
 export const getRocketsData = createAsyncThunk(
-  "rockets/getRocketsData",
+  'rockets/getRocketsData',
   async (arg, { rejectWithValue }) => {
     try {
       const response = await axios.get(ROCKET_URL);
@@ -16,9 +16,9 @@ export const getRocketsData = createAsyncThunk(
         flickr_images: item.flickr_images,
       }));
     } catch (error) {
-      return rejectWithValue("something went wrong");
+      return rejectWithValue('something went wrong');
     }
-  }
+  },
 );
 
 const initialState = {
@@ -28,18 +28,16 @@ const initialState = {
 };
 
 const rocketSlice = createSlice({
-  name: "rockets",
+  name: 'rockets',
   initialState,
   reducers: {
     reserveRocket: (state, action) => {
-      state.rocketData = state.rocketData.map((rocket) =>
-        rocket.id === action.payload
-          ? {
-              ...rocket,
-              reserved: true,
-            }
-          : { ...rocket }
-      );
+      state.rocketData = state.rocketData.map((rocket) => (rocket.id === action.payload
+        ? {
+          ...rocket,
+          reserved: true,
+        }
+        : { ...rocket }));
     },
   },
   extraReducers(builder) {

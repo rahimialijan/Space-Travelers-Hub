@@ -1,46 +1,37 @@
-import "./rockets.css";
-import PropTypes from "prop-types";
-import { useDispatch } from "react-redux";
-import { reserveRocket } from "../Redux/rockets/rocketSlice";
+/* eslint-disable react/prop-types, camelcase, jsx-a11y/img-redundant-alt */
+
+import './rockets.css';
+import { useDispatch } from 'react-redux';
+import { reserveRocket } from '../Redux/rockets/rocketSlice';
 
 const RocketItem = ({ data }) => {
+  const {
+    id, name, description, flickr_images, reserved,
+  } = data;
   const dispatch = useDispatch();
-  const handlClick = () => {
-    dispatch(reserveRocket(data.id));
+  const handleClick = () => {
+    dispatch(reserveRocket(id));
   };
 
   return (
     <div className="container">
       <div className="img-container">
-        {/* eslint-disable-next-line */}
-        <img
-          src={data.flickr_images}
-          className="rocket-img"
-          alt="Rocket Image"
-        />
+        <img src={flickr_images} className="rocket-img" alt="Rocket" />
       </div>
       <div className="details-container">
-        <h2>{data.name}</h2>
-        <p>{data.description}</p>
-        {/* eslint-disable-next-line */}
+        <h2>{name}</h2>
+        <p>{description}</p>
+
         <button
-          className={data.reserved ? "reserved-btn" : "rocket-btn"}
+          className={reserved ? 'reserved-btn' : 'rocket-btn'}
           type="button"
-          onClick={handlClick}
+          onClick={handleClick}
         >
-          {data.reserved ? "Cancel Reservation" : "Reserve Rocket"}
+          {reserved ? 'Cancel Reservation' : 'Reserve Rocket'}
         </button>
       </div>
     </div>
   );
-};
-
-RocketItem.propTypes = {
-  data: PropTypes.shape({
-    flickr_images: PropTypes.string.isRequired,
-    name: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired,
-  }).isRequired,
 };
 
 export default RocketItem;

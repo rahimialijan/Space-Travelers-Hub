@@ -36,12 +36,13 @@
   color: white;
   cursor: pointer;
 }
+
 .reserved-btn {
-    align-self: flex-start;
-    padding: 12px 20px;
-    background-color: rgba(214, 214, 214, 0.482);
-    border: 1px solid black;
-    border-radius: 4px;
-    color: rgb(83, 83, 83);
-    cursor: pointer;
-  }
+  align-self: flex-start;
+  padding: 12px 20px;
+  background-color: rgba(214, 214, 214, 0.482);
+  border: 1px solid black;
+  border-radius: 4px;
+  color: rgb(83, 83, 83);
+  cursor: pointer;
+}
