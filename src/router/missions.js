@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { fetchMisions, joinMission, leaveMission } from '../Redux/mission/missionSlice';
+import { fetchMisions, joinMission } from '../Redux/mission/missionSlice';
 import MissionsView from '../components/missionsDisplay';
 
 const Missions = () => {
@@ -15,16 +15,16 @@ const Missions = () => {
     dispatch(joinMission(missionId));
   };
 
-  const handleLeaveMission = (missionId) => {
-    dispatch(leaveMission(missionId));
-  };
+  // const handleLeaveMission = (missionId) => {
+  //   dispatch(leaveMission(missionId));
+  // };
   return (
     <MissionsView
       missions={missions}
       isLoading={isLoading}
       error={error}
       handleJoinMission={handleJoinMission}
-      handleLeaveMission={handleLeaveMission}
+      // handleLeaveMission={handleLeaveMission}
     />
   );
 };
