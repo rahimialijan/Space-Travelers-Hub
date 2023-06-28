@@ -1,7 +1,8 @@
+// eslint-disable-next-line import/extensions
 import { render } from '@testing-library/react';
 import { Provider } from 'react-redux';
 import Rockets from './rockets';
-import store from '../redux/store';
+import store from '../Redux/store';
 
 jest.mock('axios');
 
