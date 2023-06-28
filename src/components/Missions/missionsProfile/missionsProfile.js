@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchMisions } from '../Redux/mission/missionSlice';
+import { fetchMisions } from '../../../Redux/mission/missionSlice';
+import './missionsProfile.css';
 
 const MissionProfile = () => {
   const dispatch = useDispatch();
@@ -15,15 +16,15 @@ const MissionProfile = () => {
   return (
     <>
       {reservedList.length === 0 ? (
-        <p>You have not joined any mission</p>
+        <p className="no-missions">You have not joined any mission</p>
       ) : (
-        <ul className="joined missions-list">
+        <table className="joined missions-list">
           {reservedList.map((mission) => (
-            <li key={mission.mission_id}>
+            <tr key={mission.mission_id}>
               <h4>{mission.mission_name}</h4>
-            </li>
+            </tr>
           ))}
-        </ul>
+        </table>
       )}
     </>
   );

@@ -1,16 +1,19 @@
 import React from 'react';
-import MissionProfile from '../components/missionsProfile';
 import '../components/profile.css';
+import RocketProfile from '../components/Rockets/RocketsProfile/rocketProfile';
+import MissionProfile from '../components/Missions/missionsProfile/missionsProfile';
 
-const MyProfile = () => (
+const Myprofile = () => (
   <div className="profile-container">
     <section className="mission-container">
-      <div className="title">
-        My Missions
-      </div>
+      <h1>My Missions</h1>
       <MissionProfile />
+    </section>
+    <section className="rocket-Container">
+      <h1>My Rockets</h1>
+      <RocketProfile />
     </section>
   </div>
 );
 
-export default MyProfile;
+export default Myprofile;

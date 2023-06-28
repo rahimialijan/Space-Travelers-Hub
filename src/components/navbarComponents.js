@@ -5,9 +5,9 @@ import planet from '../images/planet.png';
 const NavbarComponent = () => (
   <div className="navbar">
     <div className="logo-container">
-      <NavLink to="/" className="logo-name">
+      <NavLink to="/" className="logo-items">
         <img src={planet} alt="Logo" className="planet-logo" />
-        Space Travelers Hub
+        <h1 className="logo-name"> Space Travelers Hub</h1>
       </NavLink>
     </div>
     <div className="navbar-links">
@@ -18,10 +18,11 @@ const NavbarComponent = () => (
           </NavLink>
         </li>
         <li>
-          <NavLink to="/missions" className="nav-link">
+          <NavLink to="/mission" className="nav-link">
             Missions
           </NavLink>
         </li>
+        <li className="horzental-line">|</li>
         <li>
           <NavLink to="/myprofile" className="nav-link">
             My Profile

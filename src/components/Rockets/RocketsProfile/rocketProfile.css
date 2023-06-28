@@ -1,0 +1,21 @@
+.rocket-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.rocket-list tr {
+  width: 82%;
+  border: 1px solid rgba(176, 176, 176, 0.751);
+  margin-bottom: 1px;
+  padding: 10px;
+  border-radius: 4px;
+  margin-left: 40px;
+}
+
+.rocket-list tr h4 {
+  margin: 0;
+}
+
+.no-rocket {
+  margin-left: 50px;
+}

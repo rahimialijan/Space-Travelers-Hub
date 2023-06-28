@@ -24,12 +24,18 @@
   display: flex;
 }
 
-.mission-container {
-  width: 50%;
+.profile-container h1 {
+  margin-left: 40px;
 }
 
-.title {
-  font-size: 21px;
-  font-weight: 600;
-  color: rgb(247, 0, 255);
+.mission-container {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+}
+
+.rocket-Container {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
 }

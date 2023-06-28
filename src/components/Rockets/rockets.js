@@ -2,7 +2,10 @@
 
 import './rockets.css';
 import { useDispatch } from 'react-redux';
-import { reserveRocket, cancelationRocket } from '../Redux/rockets/rocketSlice';
+import {
+  reserveRocket,
+  cancelationRocket,
+} from '../../Redux/rockets/rocketSlice';
 
 const RocketItem = ({ data }) => {
   const {
@@ -22,8 +25,15 @@ const RocketItem = ({ data }) => {
       </div>
       <div className="details-container">
         <h2>{name}</h2>
-        <p>{description}</p>
-
+        <p className="rocket-desc">
+          {' '}
+          {data?.reserved && (
+            <button type="button" className="reserved">
+              reserved
+            </button>
+          )}
+          {description}
+        </p>
         <button
           className={reserved ? 'reserved-btn' : 'rocket-btn'}
           type="button"
