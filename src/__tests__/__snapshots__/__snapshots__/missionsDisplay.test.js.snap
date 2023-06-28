@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MissionsView component should render correctly when loading 1`] = `
+<div>
+  Loading...
+</div>
+`;
+
+exports[`MissionsView component should render correctly when there is an error 1`] = `
+<div>
+  Error:
+  An error occurred.
+</div>
+`;
+
+exports[`MissionsView component should render correctly with mission data 1`] = `
+<div>
+  <table
+    className="striped-table"
+  >
+    <thead>
+      <tr>
+        <th
+          className="nowrap"
+        >
+          Mission Name
+        </th>
+        <th
+          className="nowrap"
+        >
+          Description
+        </th>
+        <th
+          className="nowrap"
+        >
+          Status
+        </th>
+        <th
+          className="nowrap"
+        >
+          Actions
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        className="even-row"
+      >
+        <td
+          className="bold"
+        >
+          Mission 1
+        </td>
+        <td>
+          Description 1
+        </td>
+        <td
+          className="button-cell"
+        >
+          <button
+            className="active-member status-btn"
+            type="button"
+          >
+            Active Member
+          </button>
+        </td>
+        <td
+          className="button-cell"
+        >
+          <button
+            className="leave-mission action-btn"
+            onClick={[Function]}
+            type="button"
+          >
+            Leave Mission
+          </button>
+        </td>
+      </tr>
+      <tr
+        className="odd-row"
+      >
+        <td
+          className="bold"
+        >
+          Mission 2
+        </td>
+        <td>
+          Description 2
+        </td>
+        <td
+          className="button-cell"
+        >
+          <button
+            className="not-member status-btn"
+            type="button"
+          >
+            Not Member
+          </button>
+        </td>
+        <td
+          className="button-cell"
+        >
+          <button
+            className="join-mission action-btn"
+            onClick={[Function]}
+            type="button"
+          >
+            Join Mission
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
