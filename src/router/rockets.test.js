@@ -5,7 +5,7 @@ import store from '../redux/store';
 
 jest.mock('axios');
 
-it('renders correctly', () => {
+it('renders Correctly', () => {
   const tree = render(
     <Provider store={store}>
       <Rockets />
