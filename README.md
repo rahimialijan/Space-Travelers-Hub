@@ -153,10 +153,11 @@ You can deploy this project using:
 - Twitter: [@twitterhandle](https://twitter.com/ngashalex)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/alex-ng-ang-a-waweru-2b2701180/)
 
-👤 **Author1**
+👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/rahimialijan/)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/alijan-rahimi-18389ab3/)
+- GitHub: [@Alijan-Rahimi](https://github.com/rahimialijan)
+- Twitter: [@AlijanRahimi10](https://twitter.com/AlijanRahimi10)
+- LinkedIn: [Alijan-Rahimi](https://www.linkedin.com/in/alijan-rahimi-18389ab3)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
