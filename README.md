@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h3><b>React Bookstore</b></h3>
+  <h3><b>Space-Travelers-Hub</b></h3>
 
 </div>
 
