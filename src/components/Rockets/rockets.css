@@ -1,6 +1,6 @@
 .container {
   display: flex;
-  margin-top: 15px;
+  margin: 1.5rem;
 }
 
 .img-container {
@@ -20,7 +20,7 @@
 }
 
 .details-container h2,
-.details-container p {
+.details-container .rocket-desc {
   font-size: 1.1rem;
   padding: 0;
   margin-bottom: 6px;
@@ -36,8 +36,16 @@
   color: white;
   cursor: pointer;
 }
-.reserved{
-  background-color: rgba(49, 155, 235, 0.975);;
+
+.reserved {
+  background-color: rgba(49, 155, 235, 0.975);
+  align-self: flex-start;
+  border: none;
+  border-radius: 3px;
+  margin-right: 3px;
+  color: white;
+  font-weight: bold;
+  padding: 6px;
 }
 
 .reserved-btn {

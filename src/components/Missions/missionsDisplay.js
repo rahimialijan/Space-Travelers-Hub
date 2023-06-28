@@ -3,7 +3,11 @@ import PropTypes from 'prop-types';
 import './missions.css';
 
 const MissionsView = ({
-  missions, isLoading, error, handleJoinMission,
+  missions,
+  isLoading,
+  error,
+  handleJoinMission,
+  handleLeaveMission,
 }) => {
   if (isLoading) {
     return <div>Loading...</div>;
@@ -31,7 +35,10 @@ const MissionsView = ({
         </thead>
         <tbody>
           {missions.map((mission, index) => (
-            <tr key={mission.mission_id} className={index % 2 === 0 ? 'even-row' : 'odd-row'}>
+            <tr
+              key={mission.mission_id}
+              className={index % 2 === 0 ? 'even-row' : 'odd-row'}
+            >
               <td className="bold">{mission.mission_name}</td>
               <td>{mission.description}</td>
               <td className="button-cell">
@@ -47,7 +54,11 @@ const MissionsView = ({
               </td>
               <td className="button-cell">
                 {mission.reserved ? (
-                  <button type="button" className="leave-mission action-btn">
+                  <button
+                    type="button"
+                    className="leave-mission action-btn"
+                    onClick={() => handleLeaveMission(mission.mission_id)}
+                  >
                     Leave Mission
                   </button>
                 ) : (
@@ -80,7 +91,7 @@ MissionsView.propTypes = {
   isLoading: PropTypes.bool.isRequired,
   error: PropTypes.string,
   handleJoinMission: PropTypes.func.isRequired,
-  // handleLeaveMission: PropTypes.func.isRequired,
+  handleLeaveMission: PropTypes.func.isRequired,
 };
 
 MissionsView.defaultProps = {

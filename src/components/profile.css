@@ -1,0 +1,41 @@
+.reserved-rocket-list,
+.joined-missions-list {
+  padding: 0;
+  width: 90%;
+  border-radius: 5px;
+  border: 1px solid #0290ff;
+}
+
+.joined-missions-list li {
+  padding: 1%;
+  margin: 1px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  border-radius: 5px;
+  list-style-type: none;
+  border: 1px solid #0290ff;
+}
+
+.joined-missions-list li h4 {
+  color: skyblue;
+}
+
+.profile-container {
+  display: flex;
+}
+
+.profile-container h1 {
+  margin-left: 40px;
+}
+
+.mission-container {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+}
+
+.rocket-Container {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+}
