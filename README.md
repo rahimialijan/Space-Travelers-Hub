@@ -1,126 +1,116 @@
 <a name="readme-top"></a>
 
+<div align="center">
+
+  <h3><b>React Bookstore</b></h3>
+
+</div>
+
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
-  - [🛠️ Built With](#built-with)
+  - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+- [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
   - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
-- [⭐ Show your support](#support)
+- [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖<a>Space-Travelers-Hub</a>
+# 📖 [Space-Travelers-Hub Project] <a name="about-project"></a>
 
-- The project was Developed by setting up a React App.👌
+**[Space-Travelers-Hub]** is a react app created using React and Redux front-end library.
 
-## 🛠️ Built With <a name="built-with"></a>
+## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
   <summary>Client</summary>
   <ul>
-    <li>JSX</li>
-    <li>CSS</li>
-    <li>React</li>
-    <li>Redux</li>
+    <li><a href="#">React</a></li>
+     <li><a href="#">Redux</a></li>
+    <li><a href="#">HTML</a></li>
+    <li><a href="#">CSS</a></li>
+    <li><a href="#">JavaScript</a></li>
   </ul>
 </details>
 
-<!-- Features -->
-
 ### Key Features <a name="key-features"></a>
 
-- **Set up the project using React**
-- **Use the ES6 of javascript**
-- **Set up linters configuration**
+- **[Initialize React app]**
+- **[React Components]**
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### Live Demo <a name="live-demo"></a>
 
-<!-- GETTING STARTED -->
+- **[Live Demo](https://rahimialijan.github.io/Space-Travelers-Hub/)**
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
 
-### Prerequisites
+### Prerequisites <a name="prerequisites"></a>
 
 In order to run this project you need:
 
-Example command:
-
-```sh
-1.use a browser
-2.use cable internet
+```
+ install git on local machine
+ create a repository on local machine `my-folder`
 
 ```
 
-### Setup
+### Setup <a name="setup"></a>
 
 Clone this repository to your desired folder:
 
-Example commands:
-
-```sh
-  cd Space-Travelers-Hub
-
-  git git@github.com:rahimialijan/Space-Travelers-Hub.git
+```
+  cd my-folder
+  git clone git@github.com:rahimialijan/Space-Travelers-Hub.git
+  cd react-bookstore
+  git checkout project-setup
 
 ```
 
-### Install
-
-Install this project with:
-
-Example command:
+### Install <a name="install"></a>
 
 ```sh
-  npm install
+
+  npm i
+
 ```
 
-### Usage
-
-To run the project, execute the following command:
-
-Example command:
+### Usage <a name="usage"></a>
 
 ```sh
- npm run start
+
+  npm run start
+
 ```
 
-### Run tests
-
-To run tests, run the following command:
-
-Example command:
+### Run tests <a name="test"></a>
 
 ```sh
-npx hint .
-npx eslint .
+
+  npm run test
+
 ```
 
-### Deployment
+### Deployment <a name="triangular_flag_on_post-deployment"></a>
 
-You can deploy this project using:
-
--Render
-
-- Render: [Math-Magician.com](https://math-magician-rx0g.onrender.com/)
+You can deploy this project using **[Render](https://render.com/)**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -128,11 +118,7 @@ You can deploy this project using:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/AleWaweru/)
-- Twitter: [@twitterhandle](https://twitter.com/ngashalex)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/alex-ng-ang-a-waweru-2b2701180/)
+> Mention all of the collaborators of this project.
 
 👤 **Alijan Rahimi**
 
@@ -140,18 +126,17 @@ You can deploy this project using:
 - Twitter: [@AlijanRahimi10](https://twitter.com/AlijanRahimi10)
 - LinkedIn: [Alijan-Rahimi](https://www.linkedin.com/in/alijan-rahimi-18389ab3)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+👤 **Alex**
 
-<!-- FUTURE FEATURES -->
+- GitHub: [@githubhandle](https://github.com/AleWaweru/)
+- Twitter: [@twitterhandle](https://twitter.com/ngashalex)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/alex-ng-ang-a-waweru-2b2701180/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Add test using jest**
-- [ ] **Add an online payment method**
-- [ ] **Add a comment section**
-- [ ] **Add an avator**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- [Insert popup windows]
 
 <!-- CONTRIBUTING -->
 
@@ -159,15 +144,15 @@ You can deploy this project using:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/rahimialijan/Space-Travelers-Hub/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
 
-## ⭐ Show your support <a name="support"></a>
+## ⭐️ Show your support <a name="support"></a>
 
-If you like this project you can leave a star to it.
+If you like this project please give it a star ⭐️
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -175,11 +160,7 @@ If you like this project you can leave a star to it.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- I would like to thank Microverse for giving us an opportunity to learn more about Front-End Development.
-
-- I would also like to thank my coding partner Alijan Rahimi for the support toward the completion of this project.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+I would like to thank Microverse Team & Students
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
