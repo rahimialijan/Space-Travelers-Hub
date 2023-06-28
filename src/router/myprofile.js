@@ -1,7 +1,9 @@
-const MyProfile = () => (
+import MyProfile from "../components/MyProfile/MyProfile.js";
+
+const Myprofile = () => (
   <div>
-    <h1>My Profile</h1>
+    <MyProfile />
   </div>
 );
 
-export default MyProfile;
+export default Myprofile;

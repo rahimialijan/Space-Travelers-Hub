@@ -36,6 +36,9 @@
   color: white;
   cursor: pointer;
 }
+.reserved{
+  background-color: rgba(49, 155, 235, 0.975);;
+}
 
 .reserved-btn {
   align-self: flex-start;
