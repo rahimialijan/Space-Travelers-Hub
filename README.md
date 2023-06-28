@@ -1,70 +1,217 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<a name="readme-top"></a>
 
-## Available Scripts
+<!-- TABLE OF CONTENTS -->
 
-In the project directory, you can run:
+# 📗 Table of Contents
 
-### `npm start`
+- [📖 About the Project](#about-project)
+  - [🛠️ Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<!-- PROJECT DESCRIPTION -->
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# 📖<a>Space-Travelers-Hub</a>
 
-### `npm test`
+- The project was Developed  by setting up a React App.👌
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Built With <a name="built-with"></a>
 
-### `npm run build`
+### Tech Stack <a name="tech-stack"></a>
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li>JSX</li>
+    <li>CSS</li>
+    <li>React</li>
+  </ul>
+</details>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<!-- Features -->
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Key Features <a name="key-features"></a>
 
-### `npm run eject`
+- **Set up the project using React**
+- **Use the ES6 of javascript**
+- **Set up linters configuration**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<!-- GETTING STARTED -->
 
-### Code Splitting
+## 💻 Getting Started <a name="getting-started"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+To get a local copy up and running, follow these steps.
 
-### Making a Progressive Web App
+### Prerequisites
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+In order to run this project you need:
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Example command:
+
+```sh
+1.use a browser
+2.use cable internet
+
+```
+ 
+
+### Setup
+
+Clone this repository to your desired folder:
+
+
+Example commands:
+
+```sh
+  cd Space-Travelers-Hub
+
+  git git@github.com:rahimialijan/Space-Travelers-Hub.git
+
+```
+
+
+### Install
+
+Install this project with:
+
+
+Example command:
+
+```sh
+  npm install
+```
+
+
+### Usage
+
+To run the project, execute the following command:
+
+
+Example command:
+
+```sh
+ npm run start
+```
+
+
+### Run tests
+
+To run tests, run the following command:
+
+
+Example command:
+
+```sh
+npx hint .
+npx eslint .
+```
+
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+You can deploy this project using:
 
-### `npm run build` fails to minify
+-Render
+- Render: [Math-Magician.com](https://math-magician-rx0g.onrender.com/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+
+👤 **Author1**
+
+- GitHub: [@githubhandle](https://github.com/AleWaweru/)
+- Twitter: [@twitterhandle](https://twitter.com/ngashalex)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/alex-ng-ang-a-waweru-2b2701180/)
+
+👤 **Author2**
+
+- GitHub: [@Alijan-Rahimi](https://github.com/rahimialijan)
+- Twitter: [@AlijanRahimi10](https://twitter.com/AlijanRahimi10)
+- LinkedIn: [Alijan-Rahimi](https://www.linkedin.com/in/alijan-rahimi-18389ab3)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Add test using jest**
+- [ ] **Add an online payment method**
+- [ ] **Add a comment section**
+- [ ] **Add an avator**
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐ Show your support <a name="support"></a>
+
+If you like this project you can leave a star to it.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+- I would like to thank Microverse for giving us an opportunity to learn more about Front-End Development.
+
+- I would also like to thank my coding partner Alijan Rahimi for the support toward the completion of this project.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](https://github.com/rahimialijan/Space-Travelers-Hub/tree/page-header/MIT.md) licensed.
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
