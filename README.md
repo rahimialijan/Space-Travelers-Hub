@@ -56,7 +56,9 @@
 
 ### Live Demo <a name="live-demo"></a>
 
-- **[Live Demo](https://rahimialijan.github.io/Space-Travelers-Hub/)**
+
+"Demo": "https://rahimialijan.github.io/Space-Travelers-Hub",
+...coming soon
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -79,7 +81,6 @@ Clone this repository to your desired folder:
 ```
   cd my-folder
   git clone git@github.com:rahimialijan/Space-Travelers-Hub.git
-  cd react-bookstore
   git checkout project-setup
 
 ```
@@ -144,7 +145,7 @@ You can deploy this project using **[Render](https://render.com/)**
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/rahimialijan/Space-Travelers-Hub/issues).
+Feel free to check the [issues page](https://github.com/rahimialijan/Space-Travelers-Hub/src).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

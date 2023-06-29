@@ -3,10 +3,7 @@ import RocketItem from '../components/Rockets/rockets';
 
 const Rockets = () => {
   const { rockets, isLoading, error } = useSelector((store) => store.rockets);
-  // const dispatch = useDispatch();
-  // useEffect(() => {
-  //   dispatch(getRocketsData());
-  // }, [dispatch]);
+
   if (error) {
     return <div>{error.message}</div>;
   }

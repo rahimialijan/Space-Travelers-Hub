@@ -3,10 +3,7 @@ import './rocketProfile.css';
 
 const RocketProfile = () => {
   const { reservedRockets } = useSelector((state) => state.rockets);
-  // const dispatch = useDispatch();
-  // useEffect(() => {
-  //   dispatch(getRocketsData());
-  // }, [dispatch]);
+
   return (
     <>
       {reservedRockets.length === 0 ? (

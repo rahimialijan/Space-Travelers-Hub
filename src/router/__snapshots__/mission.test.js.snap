@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Missions component correctly 1`] = `
+<div>
+  <table
+    className="striped-table"
+  >
+    <thead>
+      <tr>
+        <th
+          className="nowrap"
+        >
+          Mission Name
+        </th>
+        <th
+          className="nowrap"
+        >
+          Description
+        </th>
+        <th
+          className="nowrap"
+        >
+          Status
+        </th>
+        <th
+          className="nowrap"
+        >
+          Actions
+        </th>
+      </tr>
+    </thead>
+    <tbody />
+  </table>
+</div>
+`;
