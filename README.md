@@ -56,8 +56,6 @@
 
 ### Live Demo <a name="live-demo"></a>
 
-
-"Demo": "https://rahimialijan.github.io/Space-Travelers-Hub",
 ...coming soon
 
 ## 💻 Getting Started <a name="getting-started"></a>
