@@ -1,0 +1,71 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  padding-left: 3rem;
+  padding-right: 3rem;
+  background: rgba(218, 206, 206, 0);
+  height: 81px;
+}
+
+.logo-container {
+  width: 25%;
+}
+
+.planet-logo {
+  width: 50px;
+}
+
+.logo-items {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.horzental-line {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  width: 7rem;
+  height: 1rem;
+  font-family: Montserrat, sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.9px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.nav-link.active {
+  color: #007bff;
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.logo-name {
+  width: 22rem;
+  height: 2.313rem;
+  font-family: Montserrat, sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #007bff;
+  text-align: center;
+  text-decoration: none;
+}

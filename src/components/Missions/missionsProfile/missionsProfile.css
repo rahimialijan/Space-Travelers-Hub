@@ -1,0 +1,22 @@
+
+.missions-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.no-missions {
+  margin-left: 50px;
+}
+
+.missions-list tr h4 {
+  margin: 0;
+}
+
+.missions-list tr {
+  width: 82%;
+  border: 1px solid rgba(176, 176, 176, 0.751);
+  margin-bottom: 1px;
+  padding: 10px;
+  border-radius: 4px;
+  margin-left: 40px;
+}
